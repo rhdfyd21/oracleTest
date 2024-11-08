@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="DA72AB5E-24E4-FCFD-9222-2D7B3525A98F" containerWithKeyObject="4960A21A-608F-0E99-4969-47993E3AB5C1" localFKIndex="49326BFB-8FC1-A45A-E550-306E073A81E7" name="STUDENT_TRAINSEE_CODE_FK">
+<createdBy>최우빈</createdBy>
+<createdTime>2024-11-08 02:45:23 UTC</createdTime>
+<ownerDesignName>class</ownerDesignName>
+<referredTableLongName>TRAINSEE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F45DC475-DBD5-590A-6D39-31BCB38E083F</referredTableID>
+<keyObject>5D7ECEC2-51D2-28C8-918F-26E038F0D9AE</keyObject>
+<referredKeyID>5D7ECEC2-51D2-28C8-918F-26E038F0D9AE</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>NO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<discriminatorColumn>80790362-4C86-C747-1576-6549124DD156</discriminatorColumn>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

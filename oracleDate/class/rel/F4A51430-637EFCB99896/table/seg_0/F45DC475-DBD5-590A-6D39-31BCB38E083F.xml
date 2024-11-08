@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F45DC475-DBD5-590A-6D39-31BCB38E083F" name="TRAINSEE">
+<createdBy>최우빈</createdBy>
+<createdTime>2024-11-08 02:41:28 UTC</createdTime>
+<ownerDesignName>class</ownerDesignName>
+<ordsAlias>table_7</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NO" id="01F50FD9-71D6-7E41-8E87-EBB5EE17FD4D">
+<createdBy>최우빈</createdBy>
+<createdTime>2024-11-08 02:42:11 UTC</createdTime>
+<ownerDesignName>class</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODE" id="80790362-4C86-C747-1576-6549124DD156">
+<createdBy>최우빈</createdBy>
+<createdTime>2024-11-08 02:42:24 UTC</createdTime>
+<ownerDesignName>class</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>8 CHAR</dataTypeSize>
+<ownDataTypeParameters>8 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NUM" id="9306ACF9-2252-60CD-3B3E-19732CB26F0F">
+<createdBy>최우빈</createdBy>
+<createdTime>2024-11-08 02:42:57 UTC</createdTime>
+<ownerDesignName>class</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2 CHAR</dataTypeSize>
+<ownDataTypeParameters>2 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SECTION" id="CDAF04A8-0167-CB0D-DE87-8CECB36490BE">
+<createdBy>최우빈</createdBy>
+<createdTime>2024-11-08 02:43:29 UTC</createdTime>
+<ownerDesignName>class</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_DATE" id="13D200FF-F49B-ABB4-B3C8-C64BB3F0781B">
+<createdBy>최우빈</createdBy>
+<createdTime>2024-11-08 02:44:10 UTC</createdTime>
+<ownerDesignName>class</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5D7ECEC2-51D2-28C8-918F-26E038F0D9AE" name="TRAINSEE_PK">
+<createdBy>최우빈</createdBy>
+<createdTime>2024-11-08 02:44:34 UTC</createdTime>
+<ownerDesignName>class</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="01F50FD9-71D6-7E41-8E87-EBB5EE17FD4D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

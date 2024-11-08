@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0EF10196-D7B7-EA37-7E56-B17085CB1E87" name="PRESCRIPTION">
+<createdBy>최우빈</createdBy>
+<createdTime>2024-11-08 08:18:15 UTC</createdTime>
+<ownerDesignName>HOSPITAL</ownerDesignName>
+<ordsAlias>table_9</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PREID" id="9C80109F-6AC8-CE47-4889-CF5438858CBB">
+<createdBy>최우빈</createdBy>
+<createdTime>2024-11-08 08:19:11 UTC</createdTime>
+<ownerDesignName>HOSPITAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>6 CHAR</dataTypeSize>
+<ownDataTypeParameters>6 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RESERVID" id="814802AF-B3D2-C64D-2F6C-258243F9AACC">
+<createdBy>최우빈</createdBy>
+<createdTime>2024-11-08 08:19:31 UTC</createdTime>
+<ownerDesignName>HOSPITAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>6 CHAR</dataTypeSize>
+<ownDataTypeParameters>6 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2F6F212C-F079-0893-AF90-B37F8F0F97BC" referredColumn="F0A48EEA-EA49-0489-1669-4A96F2AAF5A3"/>
+</associations>
+</Column>
+<Column name="PATIID" id="BEC47212-817A-01E1-3623-AEB2AC1E96E7">
+<createdBy>최우빈</createdBy>
+<createdTime>2024-11-08 08:20:18 UTC</createdTime>
+<ownerDesignName>HOSPITAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>6 CHAR</dataTypeSize>
+<ownDataTypeParameters>6 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FBAF7A89-38B9-C182-70B6-86252F27AB89" referredColumn="DD05C38B-B453-0A79-96C1-21CDDD49DF49"/>
+</associations>
+</Column>
+<Column name="DETAIL" id="0F11AF96-FB48-62D2-B35F-ACB25B1FBB8D">
+<createdBy>최우빈</createdBy>
+<createdTime>2024-11-08 08:20:39 UTC</createdTime>
+<ownerDesignName>HOSPITAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0D871AE8-827E-C8EF-FF24-637BE5BE7C82" name="PRESCRIPTION_PK">
+<createdBy>최우빈</createdBy>
+<createdTime>2024-11-08 08:19:11 UTC</createdTime>
+<ownerDesignName>HOSPITAL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9C80109F-6AC8-CE47-4889-CF5438858CBB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FAB4249F-2588-EC3E-4D70-FBFF6E21D4BD" name="PRESCRIPTION_PATIENT_PATID_FK">
+<createdBy>최우빈</createdBy>
+<createdTime>2024-11-08 08:31:39 UTC</createdTime>
+<ownerDesignName>HOSPITAL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BEC47212-817A-01E1-3623-AEB2AC1E96E7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C6B15AF2-74D9-EB86-1482-AC347F316088" name="PRESCRIPTION_RESERVATION_RESERVID_FK">
+<createdBy>최우빈</createdBy>
+<createdTime>2024-11-08 08:33:08 UTC</createdTime>
+<ownerDesignName>HOSPITAL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="814802AF-B3D2-C64D-2F6C-258243F9AACC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

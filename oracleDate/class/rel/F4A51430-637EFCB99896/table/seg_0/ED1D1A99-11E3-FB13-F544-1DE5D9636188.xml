@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="ED1D1A99-11E3-FB13-F544-1DE5D9636188" name="LESSON">
+<createdBy>최우빈</createdBy>
+<createdTime>2024-11-08 02:36:34 UTC</createdTime>
+<ownerDesignName>class</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NO" id="86F022C0-DDA1-AC94-DA10-9526FF4BA7E8">
+<createdBy>최우빈</createdBy>
+<createdTime>2024-11-08 02:37:48 UTC</createdTime>
+<ownerDesignName>class</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NUM" id="2343A79C-3AAD-809E-5517-D90E8BCC9227">
+<createdBy>최우빈</createdBy>
+<createdTime>2024-11-08 02:37:48 UTC</createdTime>
+<ownerDesignName>class</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2 CHAR</dataTypeSize>
+<ownDataTypeParameters>2 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DFA5D763-0036-610A-FC8B-4D9E1FF8ABA1" referredColumn="B21AF37C-7774-4A19-00A7-6801A57D0B88"/>
+</associations>
+</Column>
+<Column name="NAME" id="8AB12D4F-647F-46DF-10CE-8AD8FB86E47F">
+<createdBy>최우빈</createdBy>
+<createdTime>2024-11-08 02:39:15 UTC</createdTime>
+<ownerDesignName>class</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="99AD355E-8261-D340-D493-C7758D5D24E4" name="LESSON_PK">
+<createdBy>최우빈</createdBy>
+<createdTime>2024-11-08 02:37:48 UTC</createdTime>
+<ownerDesignName>class</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="86F022C0-DDA1-AC94-DA10-9526FF4BA7E8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BF344739-6967-5CC5-420C-493605657B7A" name="LESSON_SUBJECT_NUM_FK">
+<createdBy>최우빈</createdBy>
+<createdTime>2024-11-08 02:39:49 UTC</createdTime>
+<ownerDesignName>class</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2343A79C-3AAD-809E-5517-D90E8BCC9227"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
