@@ -27,7 +27,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
 <dataTypeSize>6 CHAR</dataTypeSize>
-<ownDataTypeParameters>6 CHAR,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="2F6F212C-F079-0893-AF90-B37F8F0F97BC" referredColumn="F0A48EEA-EA49-0489-1669-4A96F2AAF5A3"/>
@@ -41,7 +41,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
 <dataTypeSize>6 CHAR</dataTypeSize>
-<ownDataTypeParameters>6 CHAR,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="FBAF7A89-38B9-C182-70B6-86252F27AB89" referredColumn="DD05C38B-B453-0A79-96C1-21CDDD49DF49"/>
@@ -81,7 +81,7 @@
 <colUsage columnID="BEC47212-817A-01E1-3623-AEB2AC1E96E7"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="C6B15AF2-74D9-EB86-1482-AC347F316088" name="PRESCRIPTION_RESERVATION_RESERVID_FK">
+<ind_PK_UK id="C6B15AF2-74D9-EB86-1482-AC347F316088" name="PRESCRIPTION_RESERVATION_FK">
 <createdBy>최우빈</createdBy>
 <createdTime>2024-11-08 08:33:08 UTC</createdTime>
 <ownerDesignName>HOSPITAL</ownerDesignName>

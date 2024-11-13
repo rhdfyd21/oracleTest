@@ -1,0 +1,53 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="PRESCRIPTION" directorySegmentName="seg_0" id="0EF10196-D7B7-EA37-7E56-B17085CB1E87">
+<createdBy>최우빈</createdBy>
+<createdTime>2024-11-08 09:08:04 UTC</createdTime>
+<ownerDesignName>HOSPITAL</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="DETAIL" id="0F11AF96-FB48-62D2-B35F-ACB25B1FBB8D">
+<createdBy>최우빈</createdBy>
+<createdTime>2024-11-08 09:08:04 UTC</createdTime>
+<ownerDesignName>HOSPITAL</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="RESERVID" id="814802AF-B3D2-C64D-2F6C-258243F9AACC">
+<createdBy>최우빈</createdBy>
+<createdTime>2024-11-08 09:08:04 UTC</createdTime>
+<ownerDesignName>HOSPITAL</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PREID" id="9C80109F-6AC8-CE47-4889-CF5438858CBB">
+<createdBy>최우빈</createdBy>
+<createdTime>2024-11-08 09:08:04 UTC</createdTime>
+<ownerDesignName>HOSPITAL</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PATIID" id="BEC47212-817A-01E1-3623-AEB2AC1E96E7">
+<createdBy>최우빈</createdBy>
+<createdTime>2024-11-08 09:08:04 UTC</createdTime>
+<ownerDesignName>HOSPITAL</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="PRESCRIPTION_RESERVATION_FK" id="C6B15AF2-74D9-EB86-1482-AC347F316088">
+<createdBy>최우빈</createdBy>
+<createdTime>2024-11-08 09:08:04 UTC</createdTime>
+<ownerDesignName>HOSPITAL</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="PRESCRIPTION_PATIENT_PATID_FK" id="FAB4249F-2588-EC3E-4D70-FBFF6E21D4BD">
+<createdBy>최우빈</createdBy>
+<createdTime>2024-11-08 09:08:04 UTC</createdTime>
+<ownerDesignName>HOSPITAL</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PRESCRIPTION_PK" id="0D871AE8-827E-C8EF-FF24-637BE5BE7C82">
+<createdBy>최우빈</createdBy>
+<createdTime>2024-11-08 09:08:04 UTC</createdTime>
+<ownerDesignName>HOSPITAL</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

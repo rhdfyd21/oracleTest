@@ -5,4 +5,9 @@
 <ownerDesignName>HOSPITAL</ownerDesignName>
 <capitalNames>false</capitalNames>
 <designId>F484D14A-F37C-FBD5-E71D-928E0246139E</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="73D17732-0E57-4B27-396C-5D4B3B98A153">
+<designStoragePath>C:\KH JAVA\DB\oracleTest\oracleDate</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
 </OSDM_Design>
