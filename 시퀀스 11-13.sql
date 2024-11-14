@@ -52,3 +52,25 @@ SELECT * FROM USER_SEQUENCES where SEQUENCE_NAME = 'DEPT_SEQ';
 
 -- SEQUENCE 삭제하기
 drop sequence DEPT_SEQ;
+
+-- 데이터 딕셔너리에서 인덱스 확인
+select * from user_indexes where table_name = 'EMPLOYEES';
+select * from user_ind_columns where table_name = 'EMPLOYEES';
+
+select * from EMPLOYEES where employee_id = 100;
+
+drop table EMP10;
+
+create table EMP10
+as
+select * from employees where 1=1;
+
+select * from EMP10 where employee_id = 100;
+
+-- 인덱스 생성하기
+select * from user_ind_columns where table_name = 'EMP10';
+create UNIQUE INDEX EMP10_EMPLOYEE_IX
+on EMP10(EMPLOYEE_ID);
+
+-- 인덱스 삭제하기
+drop index EMP10_EMPLOYEE_IX;
