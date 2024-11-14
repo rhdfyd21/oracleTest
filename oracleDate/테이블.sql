@@ -13,6 +13,10 @@ CREATE TABLE EMP01(
     CONSTRAINT EMP01_no_pk primary key(no),
     CONSTRAINT emp01_name_uk UNIQUE(name)
 );
+<<<<<<< HEAD
+drop table EMP01;
+desc EMP01;
+=======
 -- 테이블 지우기
 drop table EMP01;
 -- 테이블 보기
@@ -100,3 +104,4 @@ SELECT * FROM DEPT;
 DELETE FROM DEPT;
 TRUNCATE TABLE DEPT;
 ROLLBACK;
+>>>>>>> d46accce5389257c960f53754fc7ba3de125c37e
