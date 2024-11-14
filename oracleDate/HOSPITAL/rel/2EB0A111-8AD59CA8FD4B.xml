@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="2EB0A111-A57D-8C44-6A14-8AD59CA8FD4B" mainViewID="82C76F48-23C3-A865-3FAD-9852733F33A0">
+<createdBy>최우빈</createdBy>
+<createdTime>2024-11-08 07:47:09 UTC</createdTime>
+<ownerDesignName>HOSPITAL</ownerDesignName>
+<shouldBeOpen>true</shouldBeOpen>
+<selectedRDBMSSite>01F6E6D1-21D0-CFBD-ABDD-3988D1813575</selectedRDBMSSite>
+<importConnectionStamps>
+<importConnectionStamp class="oracle.dbtools.crest.imports.DBConnectionStamp">
+<connName>로컬-SYSTEM</connName>
+<connUser>SYSTEM</connUser>
+<connType>1</connType>
+</importConnectionStamp>
+</importConnectionStamps>
+</relationalModel>

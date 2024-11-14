@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="RESERVATION" directorySegmentName="seg_0" id="0412D9AE-3BF9-58D8-8D91-0551A0A5E64A">
+<createdBy>최우빈</createdBy>
+<createdTime>2024-11-08 09:08:07 UTC</createdTime>
+<ownerDesignName>HOSPITAL</ownerDesignName>
+<schemaObject>FADD8E01-2308-E865-145B-5BBDFB2B8C82</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>CD481003-FD0E-C72E-E2F1-AC1D4CCBF214</segment>
+<tableSpace>E96849A6-D567-7BD7-086B-8429564ABA0C</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="RESERVID" id="49360712-718D-88A9-5E97-FE440EDCDAFE">
+<createdBy>최우빈</createdBy>
+<createdTime>2024-11-08 09:08:07 UTC</createdTime>
+<ownerDesignName>HOSPITAL</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="RESERVDATE" id="580142D6-FDFD-5B43-2219-4C4346D100F1">
+<createdBy>최우빈</createdBy>
+<createdTime>2024-11-08 09:08:07 UTC</createdTime>
+<ownerDesignName>HOSPITAL</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DOCID" id="775C00CB-EDD6-E3A0-D530-291C82304542">
+<createdBy>최우빈</createdBy>
+<createdTime>2024-11-08 09:08:07 UTC</createdTime>
+<ownerDesignName>HOSPITAL</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PATIID" id="78029188-47C0-3FF4-ED3B-ABDAE2F38289">
+<createdBy>최우빈</createdBy>
+<createdTime>2024-11-08 09:08:07 UTC</createdTime>
+<ownerDesignName>HOSPITAL</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="STATUS" id="E7E61F17-A671-638A-8834-D7B53863E7AF">
+<createdBy>최우빈</createdBy>
+<createdTime>2024-11-08 09:08:07 UTC</createdTime>
+<ownerDesignName>HOSPITAL</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="RESERVATION_PK" id="384DB2C2-A0D7-081E-0F64-0785C4768693">
+<createdBy>최우빈</createdBy>
+<createdTime>2024-11-08 09:08:07 UTC</createdTime>
+<ownerDesignName>HOSPITAL</ownerDesignName>
+<schemaObject>FADD8E01-2308-E865-145B-5BBDFB2B8C82</schemaObject>
+<segment>4E2F6A7E-5C16-94BE-DDD9-2A56B52E98DD</segment>
+<tableSpace>E96849A6-D567-7BD7-086B-8429564ABA0C</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="RESERVATION_DOCTOR_DOCID_FK" id="909DED90-8410-0655-432B-B64F5A69818F">
+<createdBy>최우빈</createdBy>
+<createdTime>2024-11-08 09:08:08 UTC</createdTime>
+<ownerDesignName>HOSPITAL</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="RESERVATION_PK" id="956ED85B-D680-4A49-D730-6658B535D62B">
+<createdBy>최우빈</createdBy>
+<createdTime>2024-11-08 09:08:07 UTC</createdTime>
+<ownerDesignName>HOSPITAL</ownerDesignName>
+<segment>4E2F6A7E-5C16-94BE-DDD9-2A56B52E98DD</segment>
+<tableSpace>E96849A6-D567-7BD7-086B-8429564ABA0C</tableSpace>
+<existingIndex>384DB2C2-A0D7-081E-0F64-0785C4768693</existingIndex>
+<indexSegment>4E2F6A7E-5C16-94BE-DDD9-2A56B52E98DD</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

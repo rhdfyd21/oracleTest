@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C3CBDA07-7D00-0AA1-8331-40975560B94C" name="SUBJECT">
+<createdBy>최우빈</createdBy>
+<createdTime>2024-11-08 02:17:12 UTC</createdTime>
+<ownerDesignName>class</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NO" id="9B1D9578-E626-7C0B-956C-4845112812BE">
+<createdBy>최우빈</createdBy>
+<createdTime>2024-11-08 02:17:40 UTC</createdTime>
+<ownerDesignName>class</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NUM" id="B21AF37C-7774-4A19-00A7-6801A57D0B88">
+<createdBy>최우빈</createdBy>
+<createdTime>2024-11-08 02:18:39 UTC</createdTime>
+<ownerDesignName>class</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2 CHAR</dataTypeSize>
+<ownDataTypeParameters>2 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAME" id="FF715093-DDEE-BF27-D2D9-56B5069802E1">
+<createdBy>최우빈</createdBy>
+<createdTime>2024-11-08 02:19:04 UTC</createdTime>
+<ownerDesignName>class</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8FAD7355-7821-7D7D-75CB-9D9B668081D4" name="SUBJECT_PK">
+<createdBy>최우빈</createdBy>
+<createdTime>2024-11-08 02:28:47 UTC</createdTime>
+<ownerDesignName>class</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B21AF37C-7774-4A19-00A7-6801A57D0B88"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

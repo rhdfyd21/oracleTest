@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CDD4A7DB-8439-1D59-B7EE-0431D90D491B" schemaObject="FADD8E01-2308-E865-145B-5BBDFB2B8C82" name="DOCTOR">
+<sourceConnName>로컬-SYSTEM</sourceConnName>
+<sourceObjSchema>HR</sourceObjSchema>
+<sourceObjName>DOCTOR</sourceObjName>
+<createdBy>최우빈</createdBy>
+<createdTime>2024-11-08 09:08:07 UTC</createdTime>
+<ownerDesignName>HOSPITAL</ownerDesignName>
+<importedID>4E37878A-0360-D502-45DC-406B35CBDAD6</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="DOCID" id="D10EB699-5B99-93EF-8F8D-CA41ADEC52D3">
+<sourceConnName>로컬-SYSTEM</sourceConnName>
+<sourceObjSchema>DOCTOR</sourceObjSchema>
+<sourceObjName>DOCID</sourceObjName>
+<createdBy>최우빈</createdBy>
+<createdTime>2024-11-08 09:08:07 UTC</createdTime>
+<ownerDesignName>HOSPITAL</ownerDesignName>
+<importedID>FCAE1FF5-B455-A089-B2F8-049CB24860BF</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>6 CHAR</dataTypeSize>
+<ownDataTypeParameters>6 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CLASSID" id="BD202B51-6473-27AD-5FE3-D418D3B020E1">
+<sourceConnName>로컬-SYSTEM</sourceConnName>
+<sourceObjSchema>DOCTOR</sourceObjSchema>
+<sourceObjName>CLASSID</sourceObjName>
+<createdBy>최우빈</createdBy>
+<createdTime>2024-11-08 09:08:07 UTC</createdTime>
+<ownerDesignName>HOSPITAL</ownerDesignName>
+<importedID>2F2C1E6E-C6E3-74C7-FC47-C49D57B0C199</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>6 CHAR</dataTypeSize>
+<ownDataTypeParameters>6 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F35D5A9B-D2A7-0967-E217-C58D26244E1C" referredColumn="B737AD61-B3B8-9552-EB01-3FCB3C1B97BA"/>
+</associations>
+</Column>
+<Column name="DOCNAME" id="1269B862-E3A0-311E-013D-E5B44AAFE974">
+<sourceConnName>로컬-SYSTEM</sourceConnName>
+<sourceObjSchema>DOCTOR</sourceObjSchema>
+<sourceObjName>DOCNAME</sourceObjName>
+<createdBy>최우빈</createdBy>
+<createdTime>2024-11-08 09:08:07 UTC</createdTime>
+<ownerDesignName>HOSPITAL</ownerDesignName>
+<importedID>FD8281CA-0386-58BC-27F4-1480B83B8D2E</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BEE0E0CC-E60E-7BB8-A4A0-CD4364004AD6" name="DOCTOR_PK">
+<sourceConnName>로컬-SYSTEM</sourceConnName>
+<sourceObjSchema>HR</sourceObjSchema>
+<sourceObjName>DOCTOR_PK</sourceObjName>
+<createdBy>최우빈</createdBy>
+<createdTime>2024-11-08 09:08:07 UTC</createdTime>
+<ownerDesignName>HOSPITAL</ownerDesignName>
+<importedID>DFA2AAE4-4A2C-4A1B-9719-7B1FE2611867</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D10EB699-5B99-93EF-8F8D-CA41ADEC52D3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C5FD94E8-9295-F055-136A-EEE197ECE4A9" schemaObject="FADD8E01-2308-E865-145B-5BBDFB2B8C82" name="DOCTOR_PK">
+<sourceConnName>로컬-SYSTEM</sourceConnName>
+<sourceObjSchema>HR</sourceObjSchema>
+<sourceObjName>DOCTOR_PK</sourceObjName>
+<createdBy>최우빈</createdBy>
+<createdTime>2024-11-08 09:08:07 UTC</createdTime>
+<ownerDesignName>HOSPITAL</ownerDesignName>
+<importedID>ACBC5EEA-DAC7-F983-D6BF-32D3111593E7</importedID>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D10EB699-5B99-93EF-8F8D-CA41ADEC52D3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5EBFCA74-081E-7EBB-2DDF-1733FEA2BFED" name="DOCTOR_HOSPITAL_CLASSID_FK">
+<createdBy>최우빈</createdBy>
+<createdTime>2024-11-08 09:08:07 UTC</createdTime>
+<ownerDesignName>HOSPITAL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BD202B51-6473-27AD-5FE3-D418D3B020E1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

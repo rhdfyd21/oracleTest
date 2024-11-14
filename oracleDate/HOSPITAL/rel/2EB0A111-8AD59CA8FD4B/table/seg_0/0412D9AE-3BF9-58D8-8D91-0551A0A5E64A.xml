@@ -1,0 +1,134 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0412D9AE-3BF9-58D8-8D91-0551A0A5E64A" schemaObject="FADD8E01-2308-E865-145B-5BBDFB2B8C82" name="RESERVATION">
+<sourceConnName>로컬-SYSTEM</sourceConnName>
+<sourceObjSchema>HR</sourceObjSchema>
+<sourceObjName>RESERVATION</sourceObjName>
+<createdBy>최우빈</createdBy>
+<createdTime>2024-11-08 09:08:07 UTC</createdTime>
+<ownerDesignName>HOSPITAL</ownerDesignName>
+<importedID>7DE39C94-874C-EBCE-C580-280E99DF773D</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="RESERVID" id="49360712-718D-88A9-5E97-FE440EDCDAFE">
+<sourceConnName>로컬-SYSTEM</sourceConnName>
+<sourceObjSchema>RESERVATION</sourceObjSchema>
+<sourceObjName>RESERVID</sourceObjName>
+<createdBy>최우빈</createdBy>
+<createdTime>2024-11-08 09:08:07 UTC</createdTime>
+<ownerDesignName>HOSPITAL</ownerDesignName>
+<importedID>8560242B-9E7C-DBB4-69B4-8B6AAFCDF8A5</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>6 CHAR</dataTypeSize>
+<ownDataTypeParameters>6 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PATIID" id="78029188-47C0-3FF4-ED3B-ABDAE2F38289">
+<sourceConnName>로컬-SYSTEM</sourceConnName>
+<sourceObjSchema>RESERVATION</sourceObjSchema>
+<sourceObjName>PATIID</sourceObjName>
+<createdBy>최우빈</createdBy>
+<createdTime>2024-11-08 09:08:07 UTC</createdTime>
+<ownerDesignName>HOSPITAL</ownerDesignName>
+<importedID>33275B49-C7F3-54ED-7F66-9014D4CC03A4</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>6 CHAR</dataTypeSize>
+<ownDataTypeParameters>6 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DOCID" id="775C00CB-EDD6-E3A0-D530-291C82304542">
+<sourceConnName>로컬-SYSTEM</sourceConnName>
+<sourceObjSchema>RESERVATION</sourceObjSchema>
+<sourceObjName>DOCID</sourceObjName>
+<createdBy>최우빈</createdBy>
+<createdTime>2024-11-08 09:08:07 UTC</createdTime>
+<ownerDesignName>HOSPITAL</ownerDesignName>
+<importedID>5DD2CA5E-0854-2BDB-70E9-EAA1F4196E18</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>6 CHAR</dataTypeSize>
+<ownDataTypeParameters>6 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="89F673A1-27F2-2B0E-4A72-96B7A5DE243E" referredColumn="D10EB699-5B99-93EF-8F8D-CA41ADEC52D3"/>
+</associations>
+</Column>
+<Column name="RESERVDATE" id="580142D6-FDFD-5B43-2219-4C4346D100F1">
+<sourceConnName>로컬-SYSTEM</sourceConnName>
+<sourceObjSchema>RESERVATION</sourceObjSchema>
+<sourceObjName>RESERVDATE</sourceObjName>
+<createdBy>최우빈</createdBy>
+<createdTime>2024-11-08 09:08:07 UTC</createdTime>
+<ownerDesignName>HOSPITAL</ownerDesignName>
+<importedID>226D85F7-3405-C316-046A-3492C2B35E02</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STATUS" id="E7E61F17-A671-638A-8834-D7B53863E7AF">
+<sourceConnName>로컬-SYSTEM</sourceConnName>
+<sourceObjSchema>RESERVATION</sourceObjSchema>
+<sourceObjName>STATUS</sourceObjName>
+<createdBy>최우빈</createdBy>
+<createdTime>2024-11-08 09:08:07 UTC</createdTime>
+<ownerDesignName>HOSPITAL</ownerDesignName>
+<importedID>E24507FF-18C4-A869-0AEA-50BC2C359BC3</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3 CHAR</dataTypeSize>
+<ownDataTypeParameters>3 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="956ED85B-D680-4A49-D730-6658B535D62B" name="RESERVATION_PK">
+<sourceConnName>로컬-SYSTEM</sourceConnName>
+<sourceObjSchema>HR</sourceObjSchema>
+<sourceObjName>RESERVATION_PK</sourceObjName>
+<createdBy>최우빈</createdBy>
+<createdTime>2024-11-08 09:08:07 UTC</createdTime>
+<ownerDesignName>HOSPITAL</ownerDesignName>
+<importedID>5D7CF5E9-A5E6-9F92-6377-155460AAE015</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="49360712-718D-88A9-5E97-FE440EDCDAFE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="384DB2C2-A0D7-081E-0F64-0785C4768693" schemaObject="FADD8E01-2308-E865-145B-5BBDFB2B8C82" name="RESERVATION_PK">
+<sourceConnName>로컬-SYSTEM</sourceConnName>
+<sourceObjSchema>HR</sourceObjSchema>
+<sourceObjName>RESERVATION_PK</sourceObjName>
+<createdBy>최우빈</createdBy>
+<createdTime>2024-11-08 09:08:07 UTC</createdTime>
+<ownerDesignName>HOSPITAL</ownerDesignName>
+<importedID>426D0049-6EA3-72C8-98D8-8CDD687108C2</importedID>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="49360712-718D-88A9-5E97-FE440EDCDAFE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="909DED90-8410-0655-432B-B64F5A69818F" name="RESERVATION_DOCTOR_DOCID_FK">
+<createdBy>최우빈</createdBy>
+<createdTime>2024-11-08 09:08:08 UTC</createdTime>
+<ownerDesignName>HOSPITAL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="775C00CB-EDD6-E3A0-D530-291C82304542"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

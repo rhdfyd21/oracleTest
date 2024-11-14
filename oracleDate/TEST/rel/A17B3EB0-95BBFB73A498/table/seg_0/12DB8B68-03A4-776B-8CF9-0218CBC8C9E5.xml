@@ -1,0 +1,69 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="12DB8B68-03A4-776B-8CF9-0218CBC8C9E5" name="USER">
+<createdBy>최우빈</createdBy>
+<createdTime>2024-11-08 05:36:05 UTC</createdTime>
+<ownerDesignName>TEST</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="MOBILE" id="F40B80E3-22AE-44F3-B060-D6AF5819DD75">
+<createdBy>최우빈</createdBy>
+<createdTime>2024-11-08 05:38:33 UTC</createdTime>
+<ownerDesignName>TEST</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11 CHAR</dataTypeSize>
+<ownDataTypeParameters>11 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAME" id="9751182A-2BCA-EC6A-FA8E-584B1DC80D39">
+<createdBy>최우빈</createdBy>
+<createdTime>2024-11-08 05:37:00 UTC</createdTime>
+<ownerDesignName>TEST</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>4 CHAR</dataTypeSize>
+<ownDataTypeParameters>4 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BIRTHTEAR" id="FF7EA734-0546-F86F-9099-1327AFD550C7">
+<createdBy>최우빈</createdBy>
+<createdTime>2024-11-08 05:37:40 UTC</createdTime>
+<ownerDesignName>TEST</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ADDRESS" id="887256E4-D20C-E31B-002C-3524BE337EBB">
+<createdBy>최우빈</createdBy>
+<createdTime>2024-11-08 05:38:02 UTC</createdTime>
+<ownerDesignName>TEST</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 CHAR</dataTypeSize>
+<ownDataTypeParameters>40 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6C1D513F-9EF8-6998-4E05-611324F8C6E4" name="USER_PK">
+<createdBy>최우빈</createdBy>
+<createdTime>2024-11-08 05:38:33 UTC</createdTime>
+<ownerDesignName>TEST</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F40B80E3-22AE-44F3-B060-D6AF5819DD75"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

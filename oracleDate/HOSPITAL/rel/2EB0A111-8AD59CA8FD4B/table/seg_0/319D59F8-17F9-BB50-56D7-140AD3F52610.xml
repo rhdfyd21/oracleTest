@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="319D59F8-17F9-BB50-56D7-140AD3F52610" name="DOCTOR">
+<createdBy>최우빈</createdBy>
+<createdTime>2024-11-08 08:16:07 UTC</createdTime>
+<ownerDesignName>HOSPITAL</ownerDesignName>
+<ordsAlias>table_6</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="DOCID" id="BE60BC21-3696-FB20-BA6A-739961C85690">
+<createdBy>최우빈</createdBy>
+<createdTime>2024-11-08 08:17:01 UTC</createdTime>
+<ownerDesignName>HOSPITAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>6 CHAR</dataTypeSize>
+<ownDataTypeParameters>6 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CLASSID" id="1806B589-CF31-2E07-CBF8-E57F0564BCA8">
+<createdBy>최우빈</createdBy>
+<createdTime>2024-11-08 08:17:58 UTC</createdTime>
+<ownerDesignName>HOSPITAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>6 CHAR</dataTypeSize>
+<ownDataTypeParameters>6 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="30098995-23F5-1590-6456-CFCB76E93565" referredColumn="75F15B7D-BC67-CB35-D0C9-B4316D8388D5"/>
+</associations>
+</Column>
+<Column name="DOCNAME" id="47360373-1DDC-AF2E-C3D0-62C3864F4893">
+<createdBy>최우빈</createdBy>
+<createdTime>2024-11-08 08:17:31 UTC</createdTime>
+<ownerDesignName>HOSPITAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="56F29836-3915-9508-9888-12FF342A1962" name="DOCTOR_PK">
+<createdBy>최우빈</createdBy>
+<createdTime>2024-11-08 08:17:01 UTC</createdTime>
+<ownerDesignName>HOSPITAL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BE60BC21-3696-FB20-BA6A-739961C85690"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4855A46E-AA65-89A5-9635-1C0D527A0CA7" name="DOCTOR_HOSPITAL_CLASSID_FK">
+<createdBy>최우빈</createdBy>
+<createdTime>2024-11-08 08:24:55 UTC</createdTime>
+<ownerDesignName>HOSPITAL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1806B589-CF31-2E07-CBF8-E57F0564BCA8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="21F396A6-2CD4-001D-C94D-FA564536BA15" name="BAY">
+<createdBy>최우빈</createdBy>
+<createdTime>2024-11-08 05:38:57 UTC</createdTime>
+<ownerDesignName>TEST</ownerDesignName>
+<ordsAlias>table_2</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NO" id="C2F0CD29-7267-A99A-F600-0578D4D35D5B">
+<createdBy>최우빈</createdBy>
+<createdTime>2024-11-08 05:43:27 UTC</createdTime>
+<ownerDesignName>TEST</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MOBILE" id="D4307140-ECC7-6339-3378-FE711CCFFCC7">
+<createdBy>최우빈</createdBy>
+<createdTime>2024-11-08 05:40:03 UTC</createdTime>
+<ownerDesignName>TEST</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8F63A936-E3CA-C4E2-AE8B-9689DB9A2043" referredColumn="F40B80E3-22AE-44F3-B060-D6AF5819DD75"/>
+</associations>
+</Column>
+<Column name="FRODUCTNAME" id="05350C4E-C98E-A7C4-899B-4E7BEC546519">
+<createdBy>최우빈</createdBy>
+<createdTime>2024-11-08 05:41:00 UTC</createdTime>
+<ownerDesignName>TEST</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3 CHAR</dataTypeSize>
+<ownDataTypeParameters>3 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FRICE" id="C78867DE-BE9A-872D-EEA3-359EEF3B8D9B">
+<createdBy>최우빈</createdBy>
+<createdTime>2024-11-08 05:41:34 UTC</createdTime>
+<ownerDesignName>TEST</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AMOUNT" id="A1D6BB4A-B819-8838-924C-51889254CACD">
+<createdBy>최우빈</createdBy>
+<createdTime>2024-11-08 05:41:56 UTC</createdTime>
+<ownerDesignName>TEST</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E1B465AF-0F92-ACDD-52D0-5741906EE83A" name="BAY_PK">
+<createdBy>최우빈</createdBy>
+<createdTime>2024-11-08 05:44:28 UTC</createdTime>
+<ownerDesignName>TEST</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C2F0CD29-7267-A99A-F600-0578D4D35D5B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4FA5BA3F-BF77-3F11-1B85-6689EFA6913D" name="BAY_USER_MOBILE_FK">
+<createdBy>최우빈</createdBy>
+<createdTime>2024-11-08 05:43:44 UTC</createdTime>
+<ownerDesignName>TEST</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D4307140-ECC7-6339-3378-FE711CCFFCC7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

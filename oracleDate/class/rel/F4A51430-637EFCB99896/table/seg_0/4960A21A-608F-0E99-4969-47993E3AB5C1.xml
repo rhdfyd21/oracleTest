@@ -1,0 +1,210 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4960A21A-608F-0E99-4969-47993E3AB5C1" name="STUDENT">
+<createdBy>최우빈</createdBy>
+<createdTime>2024-11-08 02:20:11 UTC</createdTime>
+<ownerDesignName>class</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NO" id="3B15D0DF-2874-5546-4FE8-B41EC9DDCEC9">
+<createdBy>최우빈</createdBy>
+<createdTime>2024-11-08 02:20:58 UTC</createdTime>
+<ownerDesignName>class</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODE" id="AFCADFC2-EF52-D2B1-435D-E7178CA143DA">
+<createdBy>최우빈</createdBy>
+<createdTime>2024-11-08 02:23:14 UTC</createdTime>
+<ownerDesignName>class</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>8 CHAR</dataTypeSize>
+<ownDataTypeParameters>8 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NUM" id="7B10E53A-6DAA-DDB8-F2D5-013D6B26D911">
+<createdBy>최우빈</createdBy>
+<createdTime>2024-11-08 02:26:45 UTC</createdTime>
+<ownerDesignName>class</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2 CHAR</dataTypeSize>
+<ownDataTypeParameters>2 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="65982CF7-8569-35FB-1491-230CF51AFAAF" referredColumn="B21AF37C-7774-4A19-00A7-6801A57D0B88"/>
+</associations>
+</Column>
+<Column name="NAME" id="81509EEE-D882-566A-BFD5-44C20E9ECABD">
+<createdBy>최우빈</createdBy>
+<createdTime>2024-11-08 02:23:55 UTC</createdTime>
+<ownerDesignName>class</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID" id="D17B3102-96D5-24E4-46F6-F6718B122A5F">
+<createdBy>최우빈</createdBy>
+<createdTime>2024-11-08 02:24:57 UTC</createdTime>
+<ownerDesignName>class</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8 CHAR</dataTypeSize>
+<ownDataTypeParameters>8 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PWD" id="DFFF8678-9836-3679-A798-D27197942849">
+<createdBy>최우빈</createdBy>
+<createdTime>2024-11-08 02:25:18 UTC</createdTime>
+<ownerDesignName>class</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8 CHAR</dataTypeSize>
+<ownDataTypeParameters>8 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="JUMIN" id="10E3BE2E-AC64-0079-EDAE-F3E823DA2A3A">
+<createdBy>최우빈</createdBy>
+<createdTime>2024-11-08 02:27:52 UTC</createdTime>
+<ownerDesignName>class</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>13 CHAR</dataTypeSize>
+<ownDataTypeParameters>13 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PHONE" id="7A56DA39-60CD-EBC5-6DDD-8A1AA2A06D31">
+<createdBy>최우빈</createdBy>
+<createdTime>2024-11-08 02:28:35 UTC</createdTime>
+<ownerDesignName>class</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11 CHAR</dataTypeSize>
+<ownDataTypeParameters>11 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ADDRESS" id="7D727374-4B73-8491-EF9A-08AA9621E31D">
+<createdBy>최우빈</createdBy>
+<createdTime>2024-11-08 02:29:11 UTC</createdTime>
+<ownerDesignName>class</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 CHAR</dataTypeSize>
+<ownDataTypeParameters>40 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMAIL" id="B533223D-08D1-72BA-AC9E-A84BA2C890DF">
+<createdBy>최우빈</createdBy>
+<createdTime>2024-11-08 02:29:43 UTC</createdTime>
+<ownerDesignName>class</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 CHAR</dataTypeSize>
+<ownDataTypeParameters>40 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EROLL" id="1615A2C3-437C-6BD4-54D7-1AE55590BD20">
+<createdBy>최우빈</createdBy>
+<createdTime>2024-11-08 02:30:39 UTC</createdTime>
+<ownerDesignName>class</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SUBJECT_NUM" id="133875B2-3737-6705-47DF-16FDF68FBE13">
+<createdBy>최우빈</createdBy>
+<createdTime>2024-11-08 02:35:45 UTC</createdTime>
+<ownerDesignName>class</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DD9DF004-3594-EB81-C6CD-5024B6BB94F0" referredColumn="B21AF37C-7774-4A19-00A7-6801A57D0B88"/>
+</associations>
+</Column>
+<Column name="TRAINSEE_NO" id="F9EE90A8-C3AE-1EDD-0BEC-D9C37B62335E">
+<createdBy>최우빈</createdBy>
+<createdTime>2024-11-08 02:45:23 UTC</createdTime>
+<ownerDesignName>class</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DA72AB5E-24E4-FCFD-9222-2D7B3525A98F" referredColumn="01F50FD9-71D6-7E41-8E87-EBB5EE17FD4D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1E34CB78-83EF-5F4E-B08E-C3909E3572FC" name="STUDENT_PK">
+<createdBy>최우빈</createdBy>
+<createdTime>2024-11-08 02:23:14 UTC</createdTime>
+<ownerDesignName>class</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AFCADFC2-EF52-D2B1-435D-E7178CA143DA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BC1278AA-8093-A732-3ECB-C54EBD0DC412" name="STUDENT_SUBJECT_NUM_FK">
+<createdBy>최우빈</createdBy>
+<createdTime>2024-11-08 02:35:45 UTC</createdTime>
+<ownerDesignName>class</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="133875B2-3737-6705-47DF-16FDF68FBE13"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3A0286B5-BD7D-4B01-D075-FA65A8E1C2E7" name="STUDENT_SUBJECT_FK">
+<createdBy>최우빈</createdBy>
+<createdTime>2024-11-08 02:40:46 UTC</createdTime>
+<ownerDesignName>class</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7B10E53A-6DAA-DDB8-F2D5-013D6B26D911"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="49326BFB-8FC1-A45A-E550-306E073A81E7" name="STUDENT_TRAINSEE_CODE_FK">
+<createdBy>최우빈</createdBy>
+<createdTime>2024-11-08 02:45:23 UTC</createdTime>
+<ownerDesignName>class</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F9EE90A8-C3AE-1EDD-0BEC-D9C37B62335E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

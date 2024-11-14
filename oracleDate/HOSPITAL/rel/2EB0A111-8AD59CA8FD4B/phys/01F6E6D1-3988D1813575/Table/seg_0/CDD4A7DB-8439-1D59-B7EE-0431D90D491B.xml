@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="DOCTOR" directorySegmentName="seg_0" id="CDD4A7DB-8439-1D59-B7EE-0431D90D491B">
+<createdBy>최우빈</createdBy>
+<createdTime>2024-11-08 09:08:07 UTC</createdTime>
+<ownerDesignName>HOSPITAL</ownerDesignName>
+<schemaObject>FADD8E01-2308-E865-145B-5BBDFB2B8C82</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>CD481003-FD0E-C72E-E2F1-AC1D4CCBF214</segment>
+<tableSpace>E96849A6-D567-7BD7-086B-8429564ABA0C</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="DOCNAME" id="1269B862-E3A0-311E-013D-E5B44AAFE974">
+<createdBy>최우빈</createdBy>
+<createdTime>2024-11-08 09:08:07 UTC</createdTime>
+<ownerDesignName>HOSPITAL</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CLASSID" id="BD202B51-6473-27AD-5FE3-D418D3B020E1">
+<createdBy>최우빈</createdBy>
+<createdTime>2024-11-08 09:08:07 UTC</createdTime>
+<ownerDesignName>HOSPITAL</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DOCID" id="D10EB699-5B99-93EF-8F8D-CA41ADEC52D3">
+<createdBy>최우빈</createdBy>
+<createdTime>2024-11-08 09:08:07 UTC</createdTime>
+<ownerDesignName>HOSPITAL</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="DOCTOR_PK" id="C5FD94E8-9295-F055-136A-EEE197ECE4A9">
+<createdBy>최우빈</createdBy>
+<createdTime>2024-11-08 09:08:07 UTC</createdTime>
+<ownerDesignName>HOSPITAL</ownerDesignName>
+<schemaObject>FADD8E01-2308-E865-145B-5BBDFB2B8C82</schemaObject>
+<segment>4E2F6A7E-5C16-94BE-DDD9-2A56B52E98DD</segment>
+<tableSpace>E96849A6-D567-7BD7-086B-8429564ABA0C</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="DOCTOR_HOSPITAL_CLASSID_FK" id="5EBFCA74-081E-7EBB-2DDF-1733FEA2BFED">
+<createdBy>최우빈</createdBy>
+<createdTime>2024-11-08 09:08:07 UTC</createdTime>
+<ownerDesignName>HOSPITAL</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="DOCTOR_PK" id="BEE0E0CC-E60E-7BB8-A4A0-CD4364004AD6">
+<createdBy>최우빈</createdBy>
+<createdTime>2024-11-08 09:08:07 UTC</createdTime>
+<ownerDesignName>HOSPITAL</ownerDesignName>
+<segment>4E2F6A7E-5C16-94BE-DDD9-2A56B52E98DD</segment>
+<tableSpace>E96849A6-D567-7BD7-086B-8429564ABA0C</tableSpace>
+<existingIndex>C5FD94E8-9295-F055-136A-EEE197ECE4A9</existingIndex>
+<indexSegment>4E2F6A7E-5C16-94BE-DDD9-2A56B52E98DD</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>
