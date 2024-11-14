@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A3AFE97D-FB81-6688-4149-2C8FB8EC37B5" containerWithKeyObject="8D673C35-3A58-948C-19FB-0B356C702034" localFKIndex="4EEAF2E5-18A9-C267-8F57-02290CEEA47C" name="RESERVATION_DOCTOR_DOCID_FK">
+<createdBy>최우빈</createdBy>
+<createdTime>2024-11-08 08:28:27 UTC</createdTime>
+<ownerDesignName>HOSPITAL</ownerDesignName>
+<referredTableLongName>DOCTOR</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>319D59F8-17F9-BB50-56D7-140AD3F52610</referredTableID>
+<keyObject>56F29836-3915-9508-9888-12FF342A1962</keyObject>
+<referredKeyID>56F29836-3915-9508-9888-12FF342A1962</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>DOCID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<discriminatorColumn>BE60BC21-3696-FB20-BA6A-739961C85690</discriminatorColumn>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8D673C35-3A58-948C-19FB-0B356C702034" name="RESERVATION">
+<createdBy>최우빈</createdBy>
+<createdTime>2024-11-08 08:13:13 UTC</createdTime>
+<ownerDesignName>HOSPITAL</ownerDesignName>
+<ordsAlias>table_5</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="RESERVID" id="F0A48EEA-EA49-0489-1669-4A96F2AAF5A3">
+<createdBy>최우빈</createdBy>
+<createdTime>2024-11-08 08:14:03 UTC</createdTime>
+<ownerDesignName>HOSPITAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>6 CHAR</dataTypeSize>
+<ownDataTypeParameters>6 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PATIID" id="E87F1BCC-3728-7518-CC2A-D3514FD7FA00">
+<createdBy>최우빈</createdBy>
+<createdTime>2024-11-08 08:14:22 UTC</createdTime>
+<ownerDesignName>HOSPITAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>6 CHAR</dataTypeSize>
+<ownDataTypeParameters>6 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="16595B4B-2EA1-67E7-EBE2-B63D65946DCA" referredColumn="DD05C38B-B453-0A79-96C1-21CDDD49DF49"/>
+</associations>
+</Column>
+<Column name="DOCID" id="524552CE-F3BA-8711-8D6F-0CDF4674C7C2">
+<createdBy>최우빈</createdBy>
+<createdTime>2024-11-08 08:15:09 UTC</createdTime>
+<ownerDesignName>HOSPITAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>6 CHAR</dataTypeSize>
+<ownDataTypeParameters>6 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A3AFE97D-FB81-6688-4149-2C8FB8EC37B5" referredColumn="BE60BC21-3696-FB20-BA6A-739961C85690"/>
+</associations>
+</Column>
+<Column name="RESERVDATE" id="AFD64A76-06A1-CA85-8ABC-929741FE87AA">
+<createdBy>최우빈</createdBy>
+<createdTime>2024-11-08 08:14:35 UTC</createdTime>
+<ownerDesignName>HOSPITAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STATUS" id="2D2B3E5D-8491-6321-5DF6-D96406E7D13A">
+<createdBy>최우빈</createdBy>
+<createdTime>2024-11-08 08:15:24 UTC</createdTime>
+<ownerDesignName>HOSPITAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3 CHAR</dataTypeSize>
+<ownDataTypeParameters>3 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="92C38474-706A-A424-74A2-4862EBEE4C44" name="RESERVATION_PK">
+<createdBy>최우빈</createdBy>
+<createdTime>2024-11-08 08:14:03 UTC</createdTime>
+<ownerDesignName>HOSPITAL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F0A48EEA-EA49-0489-1669-4A96F2AAF5A3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4EEAF2E5-18A9-C267-8F57-02290CEEA47C" name="RESERVATION_DOCTOR_DOCID_FK">
+<createdBy>최우빈</createdBy>
+<createdTime>2024-11-08 08:28:27 UTC</createdTime>
+<ownerDesignName>HOSPITAL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="524552CE-F3BA-8711-8D6F-0CDF4674C7C2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="780540AE-B70B-06C7-00AA-268D468435CB" name="RESERVATION_PATIENT_PATID_FK">
+<createdBy>최우빈</createdBy>
+<createdTime>2024-11-08 08:32:21 UTC</createdTime>
+<ownerDesignName>HOSPITAL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E87F1BCC-3728-7518-CC2A-D3514FD7FA00"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

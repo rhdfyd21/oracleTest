@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8F63A936-E3CA-C4E2-AE8B-9689DB9A2043" containerWithKeyObject="21F396A6-2CD4-001D-C94D-FA564536BA15" localFKIndex="4FA5BA3F-BF77-3F11-1B85-6689EFA6913D" name="BAY_USER_MOBILE_FK">
+<createdBy>최우빈</createdBy>
+<createdTime>2024-11-08 05:43:44 UTC</createdTime>
+<ownerDesignName>TEST</ownerDesignName>
+<referredTableLongName>USER</referredTableLongName>
+<deleteRule>CASCADE</deleteRule>
+<referredTableID>12DB8B68-03A4-776B-8CF9-0218CBC8C9E5</referredTableID>
+<keyObject>6C1D513F-9EF8-6998-4E05-611324F8C6E4</keyObject>
+<referredKeyID>6C1D513F-9EF8-6998-4E05-611324F8C6E4</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>MOBILE</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<discriminatorColumn>F40B80E3-22AE-44F3-B060-D6AF5819DD75</discriminatorColumn>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

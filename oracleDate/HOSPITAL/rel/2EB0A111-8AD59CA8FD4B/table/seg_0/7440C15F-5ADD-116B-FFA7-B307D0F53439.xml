@@ -1,0 +1,126 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7440C15F-5ADD-116B-FFA7-B307D0F53439" schemaObject="FADD8E01-2308-E865-145B-5BBDFB2B8C82" name="PATIENT">
+<sourceConnName>로컬-SYSTEM</sourceConnName>
+<sourceObjSchema>HR</sourceObjSchema>
+<sourceObjName>PATIENT</sourceObjName>
+<createdBy>최우빈</createdBy>
+<createdTime>2024-11-08 09:08:07 UTC</createdTime>
+<ownerDesignName>HOSPITAL</ownerDesignName>
+<importedID>33C29011-2217-A643-2AE0-E27C5EA9D9CC</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PATIID " id="7E96E98A-3791-99CA-7B84-899612E4730F">
+<sourceConnName>로컬-SYSTEM</sourceConnName>
+<sourceObjSchema>PATIENT</sourceObjSchema>
+<sourceObjName>PATIID </sourceObjName>
+<createdBy>최우빈</createdBy>
+<createdTime>2024-11-08 09:08:07 UTC</createdTime>
+<ownerDesignName>HOSPITAL</ownerDesignName>
+<importedID>548B3634-9135-2ED6-EE3F-184726742512</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>6 CHAR</dataTypeSize>
+<ownDataTypeParameters>6 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PATINAME " id="70073E7C-3381-9529-6504-AA9733104E58">
+<sourceConnName>로컬-SYSTEM</sourceConnName>
+<sourceObjSchema>PATIENT</sourceObjSchema>
+<sourceObjName>PATINAME </sourceObjName>
+<createdBy>최우빈</createdBy>
+<createdTime>2024-11-08 09:08:07 UTC</createdTime>
+<ownerDesignName>HOSPITAL</ownerDesignName>
+<importedID>EC193FA7-FBCF-B43D-1AA7-6C098497FE12</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>5 CHAR</dataTypeSize>
+<ownDataTypeParameters>5 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RESINUM" id="E19B14BB-6992-ADCD-E55B-8013D055DE78">
+<sourceConnName>로컬-SYSTEM</sourceConnName>
+<sourceObjSchema>PATIENT</sourceObjSchema>
+<sourceObjName>RESINUM</sourceObjName>
+<createdBy>최우빈</createdBy>
+<createdTime>2024-11-08 09:08:07 UTC</createdTime>
+<ownerDesignName>HOSPITAL</ownerDesignName>
+<importedID>1B39093A-965C-E713-798F-B4D9827EFACD</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>14 CHAR</dataTypeSize>
+<ownDataTypeParameters>14 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="INSUR" id="1609CEC4-FD18-BD12-90D4-E45BD130E8E6">
+<sourceConnName>로컬-SYSTEM</sourceConnName>
+<sourceObjSchema>PATIENT</sourceObjSchema>
+<sourceObjName>INSUR</sourceObjName>
+<createdBy>최우빈</createdBy>
+<createdTime>2024-11-08 09:08:07 UTC</createdTime>
+<ownerDesignName>HOSPITAL</ownerDesignName>
+<importedID>80C6660C-4E5C-C64D-209F-8B752869554D</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2 CHAR</dataTypeSize>
+<ownDataTypeParameters>2 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1091F355-9F91-0162-6380-1B50515D4BE5" name="PATIENT_PK">
+<sourceConnName>로컬-SYSTEM</sourceConnName>
+<sourceObjSchema>HR</sourceObjSchema>
+<sourceObjName>PATIENT_PK</sourceObjName>
+<createdBy>최우빈</createdBy>
+<createdTime>2024-11-08 09:08:07 UTC</createdTime>
+<ownerDesignName>HOSPITAL</ownerDesignName>
+<importedID>0F10640D-C05C-BE33-4C53-F2F76194389C</importedID>
+<pk>true</pk>
+<indexExpression>PATIID</indexExpression>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+<ind_PK_UK id="51C1A3BC-3196-F8A7-8F80-78D74BD5241D" schemaObject="FADD8E01-2308-E865-145B-5BBDFB2B8C82" name="PATIENT_PK">
+<sourceConnName>로컬-SYSTEM</sourceConnName>
+<sourceObjSchema>HR</sourceObjSchema>
+<sourceObjName>PATIENT_PK</sourceObjName>
+<createdBy>최우빈</createdBy>
+<createdTime>2024-11-08 09:08:07 UTC</createdTime>
+<ownerDesignName>HOSPITAL</ownerDesignName>
+<importedID>460D3BE9-3F86-6FF9-ECD6-37A354CD7DE2</importedID>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7E96E98A-3791-99CA-7B84-899612E4730F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="SYS_C008558" directorySegmentName="seg_0" id="8E57B7C0-92E4-70DF-D6BF-EE71AD3696CD">
+<sourceConnName>로컬-SYSTEM</sourceConnName>
+<sourceObjSchema>HR</sourceObjSchema>
+<sourceObjName>SYS_C008558</sourceObjName>
+<createdBy>최우빈</createdBy>
+<createdTime>2024-11-08 09:08:07 UTC</createdTime>
+<ownerDesignName>HOSPITAL</ownerDesignName>
+<importedID>2B677281-DD68-9E71-90CD-A29BD4A3B5A1</importedID>
+<rule><![CDATA["PATIID " IS NOT NULL]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="SYS_C008559" directorySegmentName="seg_0" id="4FC0F36B-97C4-BE01-E4D1-E35E501D4D6A">
+<sourceConnName>로컬-SYSTEM</sourceConnName>
+<sourceObjSchema>HR</sourceObjSchema>
+<sourceObjName>SYS_C008559</sourceObjName>
+<createdBy>최우빈</createdBy>
+<createdTime>2024-11-08 09:08:07 UTC</createdTime>
+<ownerDesignName>HOSPITAL</ownerDesignName>
+<importedID>A864EDC0-8467-573C-8703-C8B29A20AF69</importedID>
+<rule><![CDATA["PATINAME " IS NOT NULL]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>
