@@ -135,12 +135,86 @@ end;
 DECLARE
 VDEPARTMENTS DEPARTMENTS%ROWTYPE;
 BEGIN
-    FOR I IN 1..9 LOOP
-        select * INTO VDEPARTMENT from departments where department_id = I*10;
+    FOR I IN 1..4 LOOP
+        select * INTO VDEPARTMENTS from departments where department_id = I*10;
         DBMS_OUTPUT.PUT_LINE(VDEPARTMENTS.DEPARTMENT_ID || ' / ' || VDEPARTMENTS.DEPARTMENT_NAME);
+        END LOOP;
 END;
 /
-select * from departments where department_id = 10;
-select * from departments where department_id = 20;
-select * from departments where department_id = 30;
-select * from departments where department_id = 40;
+-- 구구단
+
+DECLARE
+i number(2);
+BEGIN
+    for i in 1..9 loop
+        for j in 1..9 loop  
+        DBMS_OUTPUT.PUT_LINE( i || ' X ' || j || ' = ' || i*j);
+        end loop;
+        DBMS_OUTPUT.PUT_LINE('-----------------------');
+        end loop;
+END;
+/
+
+-- DEPARTMENTS 테이블에 전체 내용을 CURSOR 저장하고 FETCH 해서 전체정보를 출력하시오.
+DECLARE
+    VDEPARTMENTS DEPARTMENTS%ROWTYPE;
+    CURSOR C1 IS SELECT * FROM DEPARTMENTS;
+BEGIN
+    FOR VDEP IN (SELECT * FROM DEPARTMENTS)LOOP
+    DBMS_OUTPUT.PUT_LINE(VDEP.DEPARTMENT_ID || ' / ' || VDEP.DEPARTMENT_NAME);
+    end loop;
+    END;
+    /
+/*
+DECLARE
+    VDEPARTMENTS DEPARTMENTS%ROWTYPE;
+    CURSOR C1 IS SELECT * FROM DEPARTMENTS;
+BEGIN
+    OPEN C1;
+    LOOP
+        FETCH C1 INTO VDEPARTMENTS.DEPARTMENT_ID,VDEPARTMENTS.DEPARTMENT_NAME, VDEPARTMENTS.MANAGER_ID,VDEPARTMENTS.LOCATION_ID;
+        EXIT WHEN C1%NOTFOUND;
+        DBMS_OUTPUT.PUT_LINE(VDEPARTMENTS.DEPARTMENT_ID || ' / ' || VDEPARTMENTS.DEPARTMENT_NAME);
+        END LOOP;
+   
+    CLOSE C1;
+END;
+/
+*/
+
+--EMPLOYEES 테이블에서 요구한 부서별로 사용자 정보(이름,월급)을 CURSOR에 저장하고 
+--각 해당되는 부서별 요청시 해당되는 부서정보를 출력하시오 
+select * from employees where department_id = 30; 
+select distinct department_id from employees order by department_id;
+declare
+    vemp_rowtype employees%rowtype;
+    vsalary varchar(10);
+    vno number(3);
+    --부서별로 경로를 저장할수 있는 커서 생성
+    cursor c1(vdeptno employees.department_id%type)
+    is 
+    select * from employees where department_id = vdeptno; 
+begin
+    -- 부서별 정보를 생성시킨다 (랜덤값)
+    vno := round(DBMS_RANDOM.value(10,110)-1);
+    -- 부서번호가 40번이면 찍지 않는다(종료한다)
+    IF (vno = 40) then
+    DBMS_OUTPUT.PUT_LINE(VNO || '해당되지않는 부서 입니다.');
+    return;
+    end if;
+    -- 부서 번호 정보를 가져와서 월급에 대해 평가를 한다.
+    FOR vemp_rowtype in c1(vno) loop
+        if vemp_rowtype.salary between 1 and 1000  then
+        vsalary := '낮음';
+        elsif  vemp_rowtype.salary between 1001 and 2000   then
+        vsalary := '중간';
+        elsif  vemp_rowtype.salary between 2001 and 3000 then
+        vsalary := '높음';
+        else    
+        vsalary := '눈물';
+        end if;
+        dbms_output.put_line(vemp_rowtype.first_name || ' / ' || vemp_rowtype.salary || ' / ' || vsalary);
+        end loop;
+    
+end;
+/
