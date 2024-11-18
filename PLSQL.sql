@@ -213,7 +213,7 @@ begin
         else    
         vsalary := '눈물';
         end if;
-        dbms_output.put_line(vemp_rowtype.first_name || ' / ' || vemp_rowtype.salary || ' / ' || vsalary);
+        dbms_output.put_line(vno || vemp_rowtype.first_name || ' / ' || vemp_rowtype.salary || ' / ' || vsalary);
         end loop;
     
 end;
